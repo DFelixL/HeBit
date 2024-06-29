@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+}
+body{
+    background-color: white;;
+}
+.nav-bar{
+    margin-top: 50px;
+}
+.number {
+    background-color: #EAEAEA; /* Green */
+    border: none;
+    margin-left: 40px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* Make the button a circle */
+    border-radius: 50%;
+    /* Adjust size as needed */
+    width: 50px;
+    height: 50px;
+}
+.curr-number {
+    background-color: #708A5F; /* Green */
+    border: none;
+    margin-left: 40px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* Make the button a circle */
+    border-radius: 50%;
+    /* Adjust size as needed */
+    width: 50px;
+    height: 50px;
+}
+.skip{
+    display: inline-block;
+    color:#708A5F; /* White text color */
+    text-decoration: none; /* Remove underline */
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+    float: right;
+    margin-right: 60px;
+    font-size: 18px;
+}
